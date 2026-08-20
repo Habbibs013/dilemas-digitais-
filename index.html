@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilemas Digitais | Um papo sobre a vida online</title>
+    <style>
+        :root {
+            --primary-color: #4A90E2; /* Azul vibrante */
+            --secondary-color: #2C3E50; /* Azul escuro */
+            --accent-color: #E74C3C; /* Vermelho para destaque */
+            --bg-color: #F4F7F6; /* Cinza claro */
+            --text-color: #333333;
+            --white: #FFFFFF;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* Header e Banner */
+        header {
+            background-color: var(--secondary-color);
+            color: var(--white);
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        /* Navegação */
+        nav {
+            background-color: var(--primary-color);
+            padding: 10px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Container Principal */
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        /* Seções */
+        section {
+            background-color: var(--white);
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        section h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        /* Grid de Exemplos */
+        .dilema-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .dilema-card {
+            background-color: var(--bg-color);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent-color);
+            transition: transform 0.2s;
+        }
+
+        .dilema-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .dilema-card h3 {
+            color: var(--secondary-color);
+            margin-top: 0;
+        }
+
+        /* Citação */
+        blockquote {
+            background-color: var(--primary-color);
+            color: var(--white);
+            margin: 2rem 0;
+            padding: 2rem;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            font-style: italic;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3);
+        }
+
+        blockquote::before {
+            content: '\201C'; /* Aspas abrindo */
+            font-size: 3rem;
+            display: block;
+            margin-bottom: -20px;
+            opacity: 0.5;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: var(--secondary-color);
+            color: var(--white);
+            margin-top: 3rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Dilemas Digitais</h1>
+        <p>Um papo aberto sobre a nossa vida online (e os nós que ela dá na nossa cabeça)</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre">O que são?</a></li>
+            <li><a href="#exemplos">Exemplos</a></li>
+            <li><a href="#reflexao">Reflexão</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <section id="sobre">
+            <h2>Mas afinal, o que são Dilemas Digitais?</h2>
+            <p>E aí, pessoal! Como estudante, eu percebo que a nossa vida hoje acontece quase metade no mundo físico e metade na tela do celular, né? Mas muitas vezes a gente não para para pensar nas situações complicadas que a internet cria.</p>
+            <p>Dilemas digitais são aquelas situações no mundo online onde <strong>não existe uma resposta óbvia ou um manual exato</strong> do que é "certo" ou "errado". São momentos em que nossas escolhas esbarram nos sentimentos dos outros, na nossa privacidade, na nossa segurança ou até na nossa saúde mental.</p>
+            <p>Diferente de uma prova com alternativas exatas, um dilema digital exige que a gente pondere valores, tenha empatia e pense nas consequências das nossas atitudes de forma muito rápida — geralmente no tempo de um clique.</p>
+        </section>
+
+        <section id="exemplos">
+            <h2>Isso acontece todo dia: Exemplos Práticos</h2>
+            <p>Abaixo, listei algumas situações que aposto que vocês já viveram ou viram acontecer:</p>
+
+            <div class="dilema-grid">
+                
+                <div class="dilema-card">
+                    <h3>📷 A Foto Indesejada</h3>
+                    <p><strong>O dilema da privacidade alheia.</strong> Você tirou uma foto no intervalo onde saiu incrível, mas seu amigo no fundo saiu com uma cara super constrangedora. Postar nos stories e ganhar likes ou preservar o conforto do seu amigo?</p>
+                </div>
+
+                <div class="dilema-card">
+                    <h3>👀 O Peso do "Visualizado"</h3>
+                    <p><strong>O dilema da comunicação.</strong> Você leu uma mensagem complexa, mas não sabe o que responder na hora. Se não responder já, a pessoa vai ver os 'risquinhos azuis' e achar que está sendo ignorada. O que fazer?</p>
+                </div>
+
+                <div class="dilema-card">
+                    <h3>📢 O Clique da Fofoca</h3>
+                    <p><strong>O dilema da desinformação.</strong> Chega um print polêmico no grupo da sala. Dá muita vontade de encaminhar para outros amigos na hora, mas você não sabe se é verdade. Repassar logo ou checar a fonte primeiro?</p>
+                </div>
+
+                <div class="dilema-card">
+                    <h3>⏳ A Rolagem Infinita</h3>
+                    <p><strong>O dilema do tempo.</strong> Você promete ficar "só mais 5 minutinhos" no TikTok antes de estudar. Meia hora depois, você continua lá. Como equilibrar o lazer digital com as responsabilidades reais?</p>
+                </div>
+
+            </div>
+        </section>
+
+        <blockquote id="reflexao">
+            No mundo digital, nós temos ferramentas muito poderosas nas mãos, mas nem sempre temos a maturidade para usá-las sem machucar alguém ou a nós mesmos.
+        </blockquote>
+
+        <section>
+            <h2>Bora conversar?</h2>
+            <p style="text-align: center; font-size: 1.1rem; font-weight: bold;">
+                E aí, olhando para essa lista ou pensando no dia a dia de vocês, qual desses dilemas vocês acham que é o mais difícil de lidar na prática?
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Projeto sobre Cidadania Digital e Dilemas Digitais.</p>
+    </footer>
+
+</body>
+</html>
